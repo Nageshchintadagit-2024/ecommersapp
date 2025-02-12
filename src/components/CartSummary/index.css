@@ -1,0 +1,75 @@
+/* Write your CSS here */
+.cart-summery-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 850px) {
+  .cart-summery-container {
+    align-self: flex-end;
+    width: 35%;
+  }
+}
+
+.count-container {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+@media (min-width: 850px) {
+  .count-container {
+    align-self: flex-start;
+  }
+}
+
+.total-amount-text {
+  color: #616e7c;
+  font-size: 20px;
+  font-family: 'Roboto';
+  align-items: flex-start;
+  margin-bottom: 0px;
+}
+
+.total-amount {
+  color: #171f46;
+  font-size: 20px;
+  font-family: 'Roboto';
+  text-align: left;
+}
+.items-count {
+  color: #616e7c;
+  font-size: 14px;
+  font-family: 'Roboto';
+  text-align: left;
+  align-items: flex-start;
+  font-weight: 500;
+}
+.checkout-button {
+  height: 45px;
+  width: 100%;
+  border-radius: 8px;
+  background-color: #0b69ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 24px;
+}
+
+@media (min-width: 850px) {
+  .total-amount-text {
+    font-size: 28px;
+    margin-bottom: 0px;
+  }
+  .total-amount {
+    font-size: 36px;
+  }
+  .items-count {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 4px;
+  }
+  .checkout-button {
+    margin-bottom: 36px;
+  }
+}
