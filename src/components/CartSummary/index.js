@@ -3,7 +3,7 @@ import {Component} from 'react'
 
 import Popup from 'reactjs-popup'
 
-import {FaRegCreditCard} from 'react-icons/fa'
+
 
 import CartContext from '../../context/CartContext'
 
